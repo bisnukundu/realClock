@@ -1,0 +1,68 @@
+
+.box{
+	width:600px;
+	height: 600px;
+	position: relative;
+	margin:auto;
+}
+.name{
+	font-family: gabriola;
+	font-size: 50px;
+	margin: auto;
+	width:420px;
+
+}
+img{
+	display: block;
+	width:600px;
+	margin:auto;
+}
+
+.second{
+	top: 30.50%;
+	bottom:0;
+	position:absolute;
+	left: 52%;
+	display:block;
+	transform-origin: bottom;
+	background: red;
+	width:3px;
+	height: 131px;
+}
+.hours{
+	top: 35.50%;
+	bottom: 0px;
+	position:absolute;
+	left: 51.5%;
+	display:block;
+	transform-origin: bottom;
+	background: green;
+	width:10px;
+	height: 100px;
+	transition:0.5s;
+}
+.minutes{
+	top: 33%;
+	bottom:0;
+	position:absolute;
+	left: 51.6%;
+	display:block;
+	transform-origin: bottom;
+	background: lightblue;
+	width:7px;
+	height: 115px;
+	transition:0.5s;
+}
+
+.gol{
+	background: black;
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	display: block;
+	position: absolute;
+	top: 49.4%;
+	left: 49.5%;
+	z-index: 999;
+}
+
